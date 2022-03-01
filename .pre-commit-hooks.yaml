@@ -16,6 +16,7 @@
     files: '^producer/.*\.go'
     language: 'script'
     description: "Runs `go vet`, requires golang"
+    args: $#
 -   id: go-lint
     name: 'go lint'
     entry: run-go-lint.sh
